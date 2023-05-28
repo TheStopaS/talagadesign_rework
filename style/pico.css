@@ -2032,6 +2032,7 @@ dialog:not([open]), dialog[open=false] {
 nav,
 nav ul {
   display: flex;
+  align-items: center;
 }
 
 nav {
@@ -2419,7 +2420,7 @@ a[aria-busy=true] {
   color: var(--tooltip-color);
   font-style: normal;
   font-weight: var(--font-weight);
-  font-size: 0.875rem;
+  font-size: 0.7rem;
   text-decoration: none;
   text-overflow: ellipsis;
   white-space: nowrap;

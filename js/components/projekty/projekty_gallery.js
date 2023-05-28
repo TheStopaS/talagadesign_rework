@@ -12,42 +12,75 @@ const ProjektGallery = () => {
 
 <div class="gallery-filter">
   <div class="content">
-  <label for="wszystko">
-    <input type="checkbox" id="wszystko" name="wszystko" checked>
-    Wszystko
-  </label>
-  <label for="kuchnia">
-    <input type="checkbox" id="kuchnia" name="kuchnia">
-    Kuchnia
-  </label>
-  <label for="sypialnia">
-    <input type="checkbox" id="sypialnia" name="sypialnia">
-    Sypialnia
-  </label>
-  <label for="salon">
-    <input type="checkbox" id="salon" name="salon">
-    Salon
-  </label>
-  <label for="łazienka">
-    <input type="checkbox" id="łazienka" name="łazienka">
-    Łazienka
-  </label>
-  <label for="biuro">
-    <input type="checkbox" id="biuro" name="biuro">
-    Biuro
-  </label>
-  <label for="hotele">
-    <input type="checkbox" id="hotele" name="hotele">
-    Hotel
-  </label>
-  <label for="wizualizacje">
-    <input type="checkbox" id="wizualizacje" name="wizualizacje">
-    Wizualizacje Projektowe
-  </label>
-<select id="fruit" required>
-  <option value="" selected>Wybierz projekt</option>
-  <option>…</option>
-</select>
+  <details role="list">
+  <summary aria-haspopup="listbox">Wybierz wnętrze</summary>
+  <ul role="listbox">
+    <li>
+      <label>
+        <input type="checkbox">
+        Banana
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="checkbox">
+        Watermelon
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="checkbox">
+        Apple
+      </label>
+    </li>
+  </ul>
+</details>
+<details role="list">
+  <summary aria-haspopup="listbox">Wybierz styl</summary>
+  <ul role="listbox">
+    <li>
+      <label>
+        <input type="checkbox">
+        Banana
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="checkbox">
+        Watermelon
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="checkbox">
+        Apple
+      </label>
+    </li>
+  </ul>
+</details>
+  <details role="list">
+  <summary aria-haspopup="listbox">Wybierz projekt</summary>
+  <ul role="listbox">
+    <li>
+      <label>
+        <input type="checkbox">
+        Banana
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="checkbox">
+        Watermelon
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="checkbox">
+        Apple
+      </label>
+    </li>
+  </ul>
+</details>
 </div>
 
 </div>

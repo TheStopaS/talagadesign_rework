@@ -1,6 +1,6 @@
-
-
-
+html {
+  font-size: 16px;
+} 
 
 
 h3{
@@ -14,6 +14,7 @@ p {
 
 nav{
     width: 100%;
+    height: 4rem;
     position: fixed;
     z-index: 100;
     padding: 0 2rem;
@@ -22,10 +23,15 @@ nav{
 }
 
 nav li {
+    padding: 0 0.5rem !important;
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
+}
+
+nav a{
+  font-size:16px !important;
 }
 
 
@@ -162,11 +168,15 @@ textarea {
 
 .projekty-row{
 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 5rem;
-    padding-bottom: 10rem;
+display: flex;
+
+flex-wrap: wrap;
+
+justify-content: center;
+
+padding-top: 5rem;
+
+padding-bottom: 10rem;
 }
 
 
@@ -203,7 +213,6 @@ textarea {
     justify-content: space-evenly;
     align-items: center;
     padding-top: 10rem;
-    
   }
 
   .gallery-filter .content{
@@ -211,8 +220,7 @@ textarea {
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    /* align-content: center; */
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
   }
 
