@@ -1,0 +1,258 @@
+
+
+
+
+
+h3{
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+    margin-bottom: 0;
+}
+
+p {
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    padding: 0 2rem;
+    transition: all 0.5s ease;
+    background-color: rgba(242, 242, 242, 0.35);
+}
+
+nav li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.chat-box{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 1rem;
+    transition: all 0.5s ease;
+}
+
+.chat-box button{
+    border-radius: 0.5rem;
+    padding: 0.7rem !important;
+    box-shadow:  0.25rem 0.25rem 0.5rem #bebebe;
+}
+
+/* Strona główna */
+.title-container{
+    position: relative;
+    display: flex;
+    height: 100vh;
+    padding: 0 2rem;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.title-background{
+    position: absolute;
+    z-index: -1;
+    top: 40vh;
+    font-size: 20vw;
+    font-style: normal;
+    color: #fff;
+    display: flex;
+}
+
+
+.title-text-picture-container{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    
+}
+
+.title-text-picture-container-left{
+    
+    justify-content: flex-start;
+    
+}
+
+
+.title-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.title-text h2{
+    text-decoration: underline;
+    padding: 0;
+    margin: 0;
+}
+.title-text h1{
+    font-weight: 700;
+    font-size: 15rem;
+    padding: 0;
+    margin: 0;
+    line-height: 15rem;
+    text-shadow: 0.25rem 0.25rem 0.5rem #bebebe;
+    
+    
+}
+
+
+.title-picture{
+    position: relative;
+    height: 100%;
+    box-shadow:  0.25rem 0.25rem 0.5rem #bebebe;
+    cursor: pointer;
+   
+}
+.title-picture img{
+    width: 25vw;
+}
+
+.title-description{
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+}
+.title-text p{
+    text-align: center;
+    rotate: 180deg;
+ }
+
+
+/* Formularz kontaktowy*/
+
+.contact-form-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10rem;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-form{
+    width: 40%;
+    padding: 2rem;
+}
+
+textarea {
+    resize: vertical;
+  }
+
+
+
+/* Galleria projektów */
+
+.projekty-row{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+
+
+.projekty-row img{
+    vertical-align: middle;
+    width: 33.33%;
+    height: auto;
+    object-fit: cover;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    padding: 0.5rem;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .projekty-column  {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .projekty-column  {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .gallery-filter {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10rem;
+    
+  }
+
+  .gallery-filter .content{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    /* align-content: center; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+
+
+  .omnie-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10rem;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    
+  }
+
+  .omnie-text{
+    width: 40%;
+    padding: 5rem;
+  }
+
+  .omnie-text p{
+    padding-top: 2rem;
+    color: var(--primary);
+  }
+
+  .omnie-text h1{
+    margin: 0;
+    padding: 1rem;
+    color: #fff;
+    background-color: var(--primary);
+  }
+
+
+  .uslugi-form-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10rem;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
