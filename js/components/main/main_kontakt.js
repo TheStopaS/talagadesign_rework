@@ -13,7 +13,7 @@ const KontaktMain = () => {
             
           </div>
           <div class="title-picture" onclick="location.href='kontakt.html'">
-              <img src="../../images/main/kontakt.jpg" alt="Solid logo" />
+              <img src="assets/main/kontakt.jpg" alt="Solid logo" />
           </div>
       </div>
     </div>

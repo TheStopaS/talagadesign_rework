@@ -17,7 +17,7 @@ const OmnieSite = () => {
 
 
 <div class="omnie-picture">
-              <img src="../../images/omnie/omnie_picture.jpg" />
+              <img src="assets/omnie/omnie_picture.jpg" />
           </div>
 </div>
 </div>

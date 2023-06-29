@@ -88,7 +88,7 @@ areaInput.addEventListener('input', calculatePrice);
 
 
 <div class="title-picture">
-              <img src="../../images/kontakt/kontakt.jpg" alt="Solid logo" />
+              <img src="assets/kontakt/kontakt.jpg" alt="Solid logo" />
           </div>
 </div>
 </div>

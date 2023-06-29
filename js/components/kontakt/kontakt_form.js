@@ -50,7 +50,7 @@ const KontaktForm = () => {
   <button class="contrast" type="submit">Wyślij </button>
 </div>
 <div class="title-picture">
-              <img src="../../images/kontakt/kontakt.jpg" alt="Solid logo" />
+              <img src="assets/kontakt/kontakt.jpg" alt="Solid logo" />
           </div>
 </div>
 `

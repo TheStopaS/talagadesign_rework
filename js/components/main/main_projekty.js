@@ -13,7 +13,7 @@ const ProjektyMain = () => {
             
           </div>
           <div class="title-picture" onclick="location.href='projekty.html'">
-              <img src="../../images/main/projekty.png" alt="Solid logo" />
+              <img src="assets/main/projekty.png" alt="Solid logo" />
           </div>
       </div>
     </div>
