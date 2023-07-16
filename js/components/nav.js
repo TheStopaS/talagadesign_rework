@@ -6,7 +6,7 @@ const Nav = () => {
     <li><a href="index.html" class="secondary"><h3><b>MARIA TALAGA</b></h3></a></li>
   </ul>
   <ul>
-    <li><a href="omnie.html" class="secondary outline" role="button">O mnie</a></li>
+    <!--<li><a href="omnie.html" class="secondary outline" role="button">O mnie</a></li>-->
     <li><a href="projekty.html" class="nav-projekty-icon secondary" data-tooltip="Projekty" data-placement="bottom">
       <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 48 48"><rect width="37" height="30" x="5.5" y="9" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" rx="2" ry="2"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M35 9v23.5H12v-17l23 .101M42.466 32.5H35"/><circle cx="29" cy="21.601" r="4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M12 21.601H5.5M22.9 32.5c0-6.02-4.88-10.9-10.9-10.9"/>
     </svg></a></li>
@@ -17,11 +17,7 @@ const Nav = () => {
   </a></li>
 </ul>
 </nav>
-<div class="chat-box">
-<button class="primary">
-  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 48 48"><rect width="26.648" height="22.207" x="14.463" y="6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" rx="2.621"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M30.916 13.575H9.51a2.621 2.621 0 0 0-2.622 2.621v24.753a1.048 1.048 0 0 0 1.79.742l5.91-5.91h16.328a2.621 2.621 0 0 0 2.62-2.62V16.196a2.621 2.621 0 0 0-2.62-2.621Z"/></svg>
-</button>
-</div>
+
 `
 }
 
