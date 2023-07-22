@@ -41,7 +41,7 @@ const UslugiForm = () => {
   }
 
   return html`
-<main class="container">
+<main class="container uslugi">
   <article class="grid">
         <form id="pricing-form">
         <h2>Kalkulator wyceny projektów</h2>

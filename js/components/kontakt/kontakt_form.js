@@ -1,7 +1,7 @@
 import html from "https://cdn.skypack.dev/solid-js/html";
 const KontaktForm = () => {
   return html `
-    <main class="container">
+    <main class="container kontakt">
       <article class="grid">
 
       <div class="contact-form">
@@ -17,8 +17,6 @@ const KontaktForm = () => {
             <p>+48 667 872 028</p>
           </div>
         </div >
-        <br>
-        <br>
         <h4>Formularz kontaktowy:</h4>
         <form action="https://formsubmit.co/mrstopas@gmail.com" method="POST">
         <div class="grid">

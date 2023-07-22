@@ -1,7 +1,6 @@
 import html from "https://cdn.skypack.dev/solid-js/html";
 const MainPage = () => {
   return html`
-    <br>
     <main class="container home">
       <div class="grid">
         <div class="home-description column">
@@ -12,11 +11,10 @@ const MainPage = () => {
           <br>
           <a href="projekty.html" role="button" class="contrast">Przejdź do galerii projektów</a>
         </div>
-        <div class="home-picture column" onclick="location.href='projekty.html'">
+        <div class="home-picture column picture" onclick="location.href='projekty.html'">
               <img src="assets/main/projekty.png" alt="Solid logo" />
               </div>
       </div>
-      <hr>
       <div class="grid">
       
         <div class="home-description column">
@@ -27,11 +25,10 @@ const MainPage = () => {
           <br>
           <a href="uslugi.html" role="button" class="contrast">Przejdź do usług</a>
         </div>
-        <div class="home-picture column" onclick="location.href='uslugi.html'">
+        <div class="home-picture column picture" onclick="location.href='uslugi.html'">
               <img src="assets/main/projekty.png" alt="Solid logo" />
               </div>
       </div>
-      <hr>
       <div class="grid">
         <div class="home-description column">
           <h4>No.3</h4>
@@ -41,7 +38,7 @@ const MainPage = () => {
           <br>
           <a href="kontakt.html" role="button" class="contrast">Przejdź do kontatku</a>
         </div>
-        <div class="home-picture column" onclick="location.href='kontakt.html'">
+        <div class="home-picture column picture" onclick="location.href='kontakt.html'">
               <img src="assets/main/projekty.png" alt="Solid logo" />
               </div>
       </div>
