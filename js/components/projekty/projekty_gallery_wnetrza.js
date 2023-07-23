@@ -7,12 +7,11 @@ const ProjektGalleryWnetrza = () => {
     lightGallery(document.getElementById('gallery-wnetrza'), {
       thumbnail:true,
       howCloseIcon: true,
-      controls: true,
       download: false,
       preload: 3,
       plugins: [lgThumbnail],
       mobileSettings: {
-        controls: false,
+        controls: true,
         showCloseIcon: false,
         download: false,
         rotate: false

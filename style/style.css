@@ -335,42 +335,9 @@ textarea {
     grid-column-gap: var(--grid-spacing-horizontal);
   }
 
-
-  @media (min-width: 576px) {
-     .projekty article {
-      max-width: 510px;
-    }
-    .projekty header{
-      padding: 0;
-      height: 25rem;
-    }
-  }
-  @media (min-width: 768px) {
-     .projekty article {
-      max-width: 700px;
-    }
-    .projekty header{
-      padding: 0;
-      height: 25rem;
-    }
-  }
-  @media (min-width: 992px) {
-     .projekty article {
-      max-width: 920px;
-    }
-    .projekty header{
-      padding: 0;
-      height: 25rem;
-    }
-  }
-  @media (min-width: 1200px) {
-    .projekty article {
-      max-width: 30%;
-    }
-    .projekty header{
-      padding: 0;
-      height: 25rem;
-    }
+  .projekty header{
+    padding: 0;
+    height: 25rem;
   }
 
 
@@ -378,7 +345,9 @@ textarea {
     display: flex;
     flex-direction: column;
     transition: 0.5s;
-  }
+    justify-content: space-between;
+}
+  
 .projekty article:hover{
   transform: scale(1.01);
   box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
@@ -430,6 +399,7 @@ textarea {
   transform: scale(1.01);
   box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.25);
   cursor: pointer;
+  opacity: 0.8;
 }
 
 .lg-sub-html h4, .lg-sub-html p{

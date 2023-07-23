@@ -3,6 +3,7 @@ import { createSignal, onMount, For } from "https://cdn.skypack.dev/solid-js";
 const ProjektGallery = () => {
   return html`
   <main class="container projekty">
+    <div class="grid">
         <article  >
           <header >
             <img src="assets/projekty/0.png" loading="lazy" alt="Solid logo" />
@@ -58,7 +59,7 @@ const ProjektGallery = () => {
             <button class="contrast">Obejrzyj nasze projekty</button>
         </footer>
         </article>
-
+    </div>
 </main>
   `;
 };

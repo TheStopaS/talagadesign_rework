@@ -17,6 +17,7 @@ const KontaktForm = () => {
             <p>+48 667 872 028</p>
           </div>
         </div >
+        <hr>
         <h4>Formularz kontaktowy:</h4>
         <form action="https://formsubmit.co/mrstopas@gmail.com" method="POST">
         <div class="grid">
